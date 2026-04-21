@@ -1,17 +1,16 @@
 [
   {
-    "title": "SVGL - A beautiful library with SVG logos",
-    "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://svgl.vercel.app/",
-    "github": "https://github.com/pheralb/svgl",
-    "image": "/projects/svgl.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Predicción y Segmentación de compradores de bicicleta",
+    "description":"Modelo de Machine Learning enfocado en la segmentación y predicción del comportamiento de clientes. El proyecto abarca el ciclo de vida completo de los datos: desde el análisis exploratorio (EDA), limpieza y tratamiento de outliers, hasta la implementación de algoritmos de Clustering, Árboles de Decisión y Análisis Discriminante." ,
+    "github": "https://github.com/GastonAnd/data-mining-marketing",
+    "image": "/projects/Grafica8.webp",
+    "tags": ["PYTHON", "PANDAS", "NUMPY", "SCIKIT-LEARN"]
   },
   {
-    "title": "AdventJS - Retos de programación con JavaScript y TypeScript",
-    "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://adventjs.dev",
-    "image": "/projects/adventjs.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Finanzio - Sistema de gestión de finanzas personales",
+    "description": "Plataforma web desarrollada con Python y Flask para la gestión inteligente de finanzas personales. Permite registrar ingresos y llevar un control detallado de gastos por categoría.Incluye un dashboard interactivo con gráficos para el análisis financiero y una calculadora para calcular los gastos variables segun la inflación.",
+    "github":"https://github.com/GastonAnd/frro-python-2024-01",
+    "image": "/projects/finanzio.webp",
+    "tags": ["PYTHON", "BOOTSTRAP", "FLASK"]
   }
 ]

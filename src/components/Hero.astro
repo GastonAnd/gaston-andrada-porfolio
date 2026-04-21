@@ -1,11 +1,12 @@
 ---
-const personalImageAlt = "Miguel Ángel"
-import Badge from "@/components/Badge.astro"
-import GitHubIcon from "@/components/icons/GitHub.astro"
-import LinkedInIcon from "@/components/icons/LinkedIn.astro"
-import MailIcon from "@/components/icons/Mail.astro"
-import SparklesIcon from "@/components/icons/Sparkles.astro"
-import SocialPill from "@/components/SocialPill.astro"
+const personalImageAlt = 'Miguel Ángel';
+import Badge from '@/components/Badge.astro';
+import GitHubIcon from '@/components/icons/GitHub.astro';
+import LinkedInIcon from '@/components/icons/LinkedIn.astro';
+import MailIcon from '@/components/icons/Mail.astro';
+import LinkIcon from '@/components/icons/Link.astro';
+import SparklesIcon from '@/components/icons/Sparkles.astro';
+import SocialPill from '@/components/SocialPill.astro';
 ---
 
 <div class="max-w-xl">
@@ -13,18 +14,18 @@ import SocialPill from "@/components/SocialPill.astro"
     <!-- Avatar with ambient glow -->
     <div class="relative flex-shrink-0">
       <div
-        class="absolute inset-0 rounded-full bg-yellow-400/30 dark:bg-yellow-400/20 blur-xl scale-125"
+        class="absolute inset-0 rounded-full bg-sky-400/30 dark:bg-sky-400/20 blur-xl scale-125"
         aria-hidden="true"
       >
       </div>
       <img
-        class="relative rounded-full shadow-2xl size-20 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
-        src="/midudev.webp"
+        class="relative rounded-full shadow-2xl size-28 ring-2 ring-sky-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
+        src="/me.webp"
         alt={personalImageAlt}
       />
     </div>
     <a
-      href="https://linkedin.com/in/midudev"
+      href="https://linkedin.com/in/gaston-andrada"
       target="_blank"
       rel="noopener noreferrer"
       class="flex items-center transition md:justify-center md:hover:scale-105"
@@ -36,33 +37,42 @@ import SocialPill from "@/components/SocialPill.astro"
   <h1
     class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
   >
-    Hey, soy <span class="gradient-name">midudev</span>
+    Hola, soy <span class="gradient-name">Gastón</span>
   </h1>
 
   <p
-    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-sky-200 [&>strong]:text-sky-500 [&>strong]:font-semibold dark:text-gray-300"
   >
-    +15 años de experiencia. <strong
-      >Ingeniero de Software y Creador de Contenido sobre Programación</strong
-    > de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web
-    únicas.
+    Estudiante de Ingeniería en Sistemas especializado en Data Science,
+    Inteligencia Artificial y Automatización (RPA). Me apasiona transformar
+    datos complejos en decisiones útiles y optimizar procesos industriales. De
+    Funes, Argentina.
   </p>
 
   <nav
     class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
     aria-label="Redes sociales y contacto"
   >
-    <SocialPill href="mailto:miduga@gmail.com">
+    <SocialPill href="mailto:gasti.andrada123@gmail.com">
       <MailIcon class="size-4" />
       Contáctame
     </SocialPill>
-    <SocialPill href="https://linkedin.com/in/midudev">
+    <SocialPill href="https://linkedin.com/in/gaston-andrada">
       <LinkedInIcon class="size-4" />
       LinkedIn
     </SocialPill>
-    <SocialPill href="https://github.com/midudev">
+    <SocialPill href="https://github.com/GastonAnd">
       <GitHubIcon class="size-4" />
       GitHub
+    </SocialPill>
+    <SocialPill
+      href="/Gaston_Andrada_Data_Backend.pdf"
+      download="Gaston_Andrada_Data_Backend.pdf"
+      target="_self"
+      rel=""
+    >
+      <LinkIcon class="size-4" />
+      Descargar CV
     </SocialPill>
   </nav>
 </div>
