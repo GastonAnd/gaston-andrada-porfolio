@@ -5,6 +5,11 @@ import Bootstrap from './icons/Bootstrap.astro';
 import Flask from './icons/Flask.astro';
 import Tailwind from './icons/Tailwind.astro';
 import Code from './icons/Code.astro';
+import Pandas from './icons/Pandas.astro';
+import LangChain from './icons/LangChain.astro';
+import OpenAIChatGPT from './icons/OpenAIChatGPT.astro';
+import SQLAlchemy from './icons/SQLAlchemy.astro';
+import Supabase from './icons/Supabase.astro';
 import ExternalLink from './icons/ExternalLink.astro';
 import LinkButton from './LinkButton.astro';
 import projectsData from '@/data/projects.json';
@@ -33,7 +38,7 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
   PANDAS: {
     name: 'Pandas',
     class: 'bg-[#150458] text-white',
-    icon: Code,
+    icon: Pandas,
   },
   NUMPY: {
     name: 'NumPy',
@@ -44,6 +49,26 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
     name: 'Scikit-learn',
     class: 'bg-[#F7931E] text-white',
     icon: Code,
+  },
+  LANGCHAIN: {
+    name: 'LangChain',
+    class: 'bg-[#0F172A] text-cyan-300',
+    icon: LangChain,
+  },
+  'OPENAI/CHATGPT': {
+    name: 'OpenAI / ChatGPT',
+    class: 'bg-[#111827] text-emerald-300',
+    icon: OpenAIChatGPT,
+  },
+  SQLALCHEMY: {
+    name: 'SQLAlchemy',
+    class: 'bg-[#0B1B34] text-blue-200',
+    icon: SQLAlchemy,
+  },
+  SUPABASE: {
+    name: 'Supabase',
+    class: 'bg-[#042F2E] text-emerald-300',
+    icon: Supabase,
   },
 };
 

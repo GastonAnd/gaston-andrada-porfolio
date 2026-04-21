@@ -7,11 +7,11 @@
     "tags": ["PYTHON", "PANDAS", "NUMPY", "SCIKIT-LEARN"]
   },
    {
-    "title": "Agente Conversacional ",
-    "description": "Plataforma web desarrollada con Python y Flask para la gestión inteligente de finanzas personales. Permite registrar ingresos y llevar un control detallado de gastos por categoría.Incluye un dashboard interactivo con gráficos para el análisis financiero y una calculadora para calcular los gastos variables segun la inflación.",
-    "github":"https://github.com/GastonAnd/frro-python-2024-01",
-    "image": "/projects/finanzio.webp",
-    "tags": ["PYTHON", "BOOTSTRAP", "FLASK"]
+    "title": "Agente Conversacional para ticketera de eventos ",
+    "description": "Desarrollo de un sistema de agentes inteligentes basado en la arquitectura ReAct para responder consultas sobre eventos. Utilizando LangChain y Python, integré LLMs con herramientas customizadas para interactuar dinámicamente con bases de datos relacionales, permitiendo resolver consultas complejas de usuarios en tiempo real y ejecutar acciones basadas en el contexto.",
+    "github":"https://github.com/GastonAnd/agente-experto-ia",
+    "image": "/projects/carbon.webp",
+    "tags": ["PYTHON", "LANGCHAIN", "OPENAI", "SQLALCHEMY", "PANDAS", "SUPABASE"]
   },
   {
     "title": "Finanzio - Sistema de gestión de finanzas personales",
