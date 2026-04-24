@@ -10,6 +10,8 @@ import LangChain from './icons/LangChain.astro';
 import OpenAIChatGPT from './icons/OpenAIChatGPT.astro';
 import SQLAlchemy from './icons/SQLAlchemy.astro';
 import Supabase from './icons/Supabase.astro';
+import Streamlit from './icons/Streamlit.astro';
+import FastAPI from './icons/FastAPI.astro';
 import ExternalLink from './icons/ExternalLink.astro';
 import LinkButton from './LinkButton.astro';
 import projectsData from '@/data/projects.json';
@@ -69,6 +71,16 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
     name: 'Supabase',
     class: 'bg-[#042F2E] text-emerald-300',
     icon: Supabase,
+  },
+  STREAMLIT: {
+    name: 'Streamlit',
+    class: 'bg-[#FF4B4B] text-white',
+    icon: Streamlit,
+  },
+  FASTAPI: {
+    name: 'FastAPI',
+    class: 'bg-[#05998B] text-white',
+    icon: FastAPI,
   },
 };
 
@@ -140,7 +152,7 @@ const PROJECTS = projectsData.map((project) => {
             {link && (
               <LinkButton href={link}>
                 <ExternalLink class="size-4" />
-                Preview
+                Ver demo
               </LinkButton>
             )}
           </footer>

@@ -1,4 +1,12 @@
 [
+    {
+    "title": "Telecom Churn Intelligence Dashboard",
+    "description":"Desarrollé una solución end-to-end para predecir la fuga de clientes (churn) en telecomunicaciones, transformando datos complejos en una herramienta de decisión estratégica. El proyecto incluye un pipeline de Machine Learning (Árboles de Decisión y Regresión Logística) con métricas optimizadas para detectar perfiles de riesgo en tiempo real.",
+      "link":"https://churn-prediction-dashboard-andrada.streamlit.app/",
+    "github":"https://github.com/GastonAnd/churn-prediction-dashboard",  
+    "image": "/projects/dashboard.webp",
+      "tags": ["PYTHON", "PANDAS", "NUMPY", "SCIKIT-LEARN", "STREAMLIT", "FASTAPI"]
+  },
   {
     "title": "Predicción y Segmentación de compradores de bicicleta",
     "description":"Modelo de Machine Learning enfocado en la segmentación y predicción del comportamiento de clientes. El proyecto abarca el ciclo de vida completo de los datos: desde el análisis exploratorio (EDA), limpieza y tratamiento de outliers, hasta la implementación de algoritmos de Clustering, Árboles de Decisión y Análisis Discriminante." ,
